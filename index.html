@@ -14,11 +14,11 @@
 
   <body>
 
-    <div class="container-fluid main">
+    <div id="tiles" class="container-fluid main">
 
       <div class="row">
 	<div class="col-md-4"></div>
-	<div class="col-md-4">
+	<div class="col-md-4" id='ta'>
 	  <div class="tile box resultContainer">
             <h3 class="title">Utilities</h3>
 	    <div class="viewThisResult">
@@ -26,7 +26,7 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4" id='tb'>
 	  <div class="tile box resultContainer">
             <h3 class="title">Cities</h3>
 	    <div class="viewThisResult">
@@ -37,7 +37,7 @@
       </div>
       <div class="row">
 	<div class="col-md-4"></div>
-	<div class="col-md-4">
+	<div class="col-md-4" id='tc'>
 	  <div class="tile box resultContainer">
             <h3 class="title">RF Planning</h3>
 	    <div class="viewThisResult">
@@ -45,7 +45,7 @@
 	    </div>
 	  </div>
 	</div>
-	<div class="col-md-4">
+	<div class="col-md-4" id='td'>
 	  <div class="tile box resultContainer">
             <h3 class="title">About</h3>
 	    <div class="viewThisResult">
@@ -55,6 +55,75 @@
 	</div>    
       </div>
     </div>
+
+    <div id="pa" class="container main" style="display:none">
+      <div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-8">
+	  <div class="tile box resultContainer large_box">
+            <h3 class="title">Utilities</h3>
+
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div id="pb" class="container main" style="display:none">
+      <div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-8">
+	  <div class="tile box resultContainer large_box">
+            <h3 class="title">Cities</h3>
+
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div id="pc" class="container main" style="display:none">
+      <div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-8">
+	  <div class="tile box resultContainer large_box">
+            <h3 class="title">RF Planning</h3>
+
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    <div id="pd" class="container main" style="display:none">
+      <div class="row">
+	<div class="col-md-4"></div>
+	<div class="col-md-8">
+	  <div class="tile box resultContainer large_box">
+            <h3 class="title">About</h3>
+
+	  </div>
+	</div>
+      </div>
+    </div>
+
+
+
+    <script>
+      $('#ta').click(function(){
+        $('#tiles').hide();
+        $('#pa').show();
+      });
+      $('#tb').click(function(){
+        $('#tiles').hide();
+        $('#pb').show();
+      });
+      $('#tc').click(function(){
+        $('#tiles').hide();
+        $('#pc').show();
+      });
+      $('#td').click(function(){
+        $('#tiles').hide();
+        $('#pd').show();
+      });
+    </script>
 
     <!-- BigVideo Dependencies -->
 
