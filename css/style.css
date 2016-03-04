@@ -36,4 +36,9 @@ html, body {
     color: white;
 }
 
-
+.resultContainer .viewThisResult {
+    display: none;
+}
+.resultContainer:hover .viewThisResult {
+    display: inline;
+}
