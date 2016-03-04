@@ -45,7 +45,7 @@
 	  <div class="tile box resultContainer">
             <h3 class="title">RF Planning</h3>
 	    <div class="viewThisResult">
-              <p>3D models of massive environments for RF planning</p>
+              <p>3D models of massive environments for RF planning.</p>
 	      <p />
 	      <p>Click for more...</p>
 	    </div>
@@ -123,6 +123,14 @@
       $('#ta').click(function(){
         $('#tiles').hide();
         $('#pa').show();
+
+      //change background video
+      $(function() {
+      var BV = new $.BigVideo();
+      BV.init();
+      BV.show('vid/road.mp4',{ambient:true});
+      });
+
       });
       $('#tb').click(function(){
         $('#tiles').hide();
@@ -131,6 +139,13 @@
       $('#tc').click(function(){
         $('#tiles').hide();
         $('#pc').show();
+      //change background video
+      $(function() {
+      var BV = new $.BigVideo();
+      BV.init();
+      BV.show('vid/rf.mp4',{ambient:true});
+      });
+
       });
       $('#td').click(function(){
         $('#tiles').hide();
