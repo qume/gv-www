@@ -17,7 +17,7 @@ html, body {
     padding: 20px;
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
-    font: 100 'Roboto';
+    font: 200 'Roboto';
 
 }
 
@@ -31,8 +31,9 @@ html, body {
 
 .box h3 {
     font-family: 'Roboto', sans-serif;
-    font: 200 'Roboto';    
-    font-weight: 200;
+    font: 300 'Roboto';    
+    font-weight: 300;
+    color: #aaa;
 }
 .main {
     position:relative;
@@ -47,6 +48,7 @@ html, body {
 .resultContainer .viewThisResult {
     display: none;
 }
-.resultContainer:hover .viewThisResult {
+.resultContainer:hover  .viewThisResult {
     display: inline;
+      background:#444; background:rgba(0,0,0,.8);
 }
