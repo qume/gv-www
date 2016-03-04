@@ -1,5 +1,6 @@
 * { -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; *behavior:url(boxsizing.htc); }
 html, body { 
+
 }
 .box { 
     background:#444; background:rgba(0,0,0,.6);
@@ -15,9 +16,19 @@ html, body {
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+    font: 100 'Roboto';
+
+}
+
+.box h3 {
+    font-family: 'Roboto', sans-serif;
+    font: 200 'Roboto';    
+    font-weight: 200;
 }
 .main {
     position:relative;
+    font-weight:100;
     margin-top:50px;
 //    margin:50px 50px 440px 220px;
     //	min-width:300px;
