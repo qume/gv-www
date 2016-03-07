@@ -20,21 +20,21 @@
 	<div class="col-md-4"></div>
 	<div class="col-md-4" id='ta'>
 	  <div class="tile box resultContainer">
-            <h3 class="title">Utilities</h3>
+            <h3 class="title">Remote Intelligence</h3>
 	    <div class="viewThisResult">
-              <p>Gas, electric and roads.</p>
+              <p></p>
 	      <p />
-	      <p>Click for more...</p>
+	      <p>Click for info...</p>
 	    </div>
 	  </div>
 	</div>
 	<div class="col-md-4" id='tb'>
 	  <div class="tile box resultContainer">
-            <h3 class="title">Cities</h3>
+            <h3 class="title">Utilities</h3>
 	    <div class="viewThisResult">
-              <p>Mapping not just the exact location of all your cities assets, but also their condition.</p>
+              <p></p>
 	      <p />
-	      <p>Click for more...</p>
+	      <p>Click for info...</p>
 	    </div>
 	  </div>
 	</div>
@@ -43,11 +43,11 @@
 	<div class="col-md-4"></div>
 	<div class="col-md-4" id='tc'>
 	  <div class="tile box resultContainer">
-            <h3 class="title">RF Planning</h3>
+            <h3 class="title">Governments</h3>
 	    <div class="viewThisResult">
-              <p>3D models of massive environments for RF planning.</p>
+              <p></p>
 	      <p />
-	      <p>Click for more...</p>
+	      <p>Click for info...</p>
 	    </div>
 	  </div>
 	</div>
@@ -55,9 +55,9 @@
 	  <div class="tile box resultContainer">
             <h3 class="title">ground.vu</h3>
 	    <div class="viewThisResult">
-              <p>Who are we? Get in touch!</p>
+              <p></p>
 	      <p />
-	      <p>Click for more...</p>
+	      <p>Click for info...</p>
 	    </div>
 	  </div>
 	</div>    
@@ -69,8 +69,14 @@
 	<div class="col-md-4"></div>
 	<div class="col-md-8">
 	  <div class="tile box resultContainer large_box">
-            <h3 class="title">Utilities</h3>
-	 
+            <h3 class="title">Remote Intelligence</h3>
+	    <p> Meet the Groundvu imaging and 3d service</p>
+	    <p></p>
+	    <p>We plan, fly or drive, process and deliver intelligent maps</p>
+	    <p>Our capture system is distributed to our network of operators </p>
+	    <p>Ortho-rectified imagery, 3d point clouds, GIS feature extraction</p>
+	    <p> </p>
+	    <p>Infrastructure business love Groundvu to provide insights into 3d change detection critical to the operations of business assets</p>
 	  </div>
 	</div>
       </div>
@@ -81,7 +87,13 @@
 	<div class="col-md-4"></div>
 	<div class="col-md-8">
 	  <div class="tile box resultContainer large_box">
-            <h3 class="title">Cities</h3>
+            <h3 class="title">Utilities</h3>
+	    <p>Electric, Telecom and Gas</p>
+	    <p>Our data and maps power</p>
+	    <p>Vegetation encroachment</p>
+	    <p>Fallen Tree Threat</p>
+	    <p>Microwave line of sign analysis</p>
+	    <p>RF propagation modeling</p>
 
 	  </div>
 	</div>
@@ -93,7 +105,13 @@
 	<div class="col-md-4"></div>
 	<div class="col-md-8">
 	  <div class="tile box resultContainer large_box">
-            <h3 class="title">RF Planning</h3>
+            <h3 class="title">Governments</h3>
+	    <p>Urban Planning, Public Works, & Public Safety</p>
+	    <p>Our data and maps power</p>
+	    <p>Building and Vegetation modeling</p>
+	    <p>Street furniture inventory</p>
+	    <p>Change detection analysis</p>
+	    <p>Disaster response</p>
 
 	  </div>
 	</div>
@@ -106,10 +124,9 @@
 	<div class="col-md-8">
 	  <div class="tile box resultContainer large_box">
             <h3 class="title">About</h3>
-	    <p>Ground.Vu was founded by Myles Sutherland 2015 after a decade in geospatial at both Trimble and ESRI. </p>
-	    <p />
-	    <p>Our mission is to enable better GIS through deploying the latest technologies in data collection.</p>
-	    <p>In our short existance, we have captured from drone, manned aircraft, cars, trains and on foot. We're looking forward to you challenging us to do high quality data capture in new and difficult circumstances.</p>
+	    <p>At Groundvu, we believe high-resolution 3d change detection provides business with massive operational efficiencies.</p>
+	    <p>Our vision is to capture, process, and delivery remote business intelligence helping optimize field staff and mobility across infrastructure related business.</p>
+	    <p>Get in touch <a href='mailto:info@ground.vu'>info@ground.vu</a></p>
 	    <script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
 	    <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/mylessutherland" data-format="inline"></script>
 	  </div>
@@ -120,6 +137,23 @@
 
 
     <script>
+      $('#pa').click(function(){
+        $('#pa').hide();
+        $('#tiles').show();
+      });
+      $('#pb').click(function(){
+        $('#pb').hide();
+        $('#tiles').show();
+      });
+      $('#pc').click(function(){
+        $('#pc').hide();
+        $('#tiles').show();
+      });
+      $('#pd').click(function(){
+        $('#pd').hide();
+        $('#tiles').show();
+      });
+
       $('#ta').click(function(){
         $('#tiles').hide();
         $('#pa').show();

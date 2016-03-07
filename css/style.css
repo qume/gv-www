@@ -36,6 +36,7 @@ html, body {
     color: #aaa;
 }
 .main {
+
     position:relative;
     font-weight:100;
     margin-top:50px;
@@ -45,6 +46,9 @@ html, body {
     color: white;
 }
 
+.tile {
+    cursor:hand;
+}
 .resultContainer .viewThisResult {
     display: none;
 }
